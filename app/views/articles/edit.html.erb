@@ -1,6 +1,6 @@
 <h1> Edit your article </h1>
 <% if @article.errors.any? %>
-  <h2> Sorry! The following errors must be fixed before creating a new article. </h2>
+  <h2> Sorry! The following errors must be fixed before editing an article. </h2>
   <ul>
     <% @article.errors.full_messages.each do |error| %>
       <li><%= error %></li>
