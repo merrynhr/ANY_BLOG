@@ -14,7 +14,6 @@ class SessionsController < ApplicationController
       flash.now[:alert] = "Login failed, please try again!"
       render 'new'
     end
-
   end
 
   def destroy
@@ -24,3 +23,4 @@ class SessionsController < ApplicationController
   end
 
 end
+
