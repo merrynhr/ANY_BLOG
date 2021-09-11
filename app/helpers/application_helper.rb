@@ -12,7 +12,7 @@ module ApplicationHelper
   #   @current_user ||= User.find(session[:user_id]) if session[:user_id]
   # end
 
-  def logged_in?
-    !!current_user # !! turns current_user into a boolean
-  end
+  # def logged_in?
+  #   !!current_user # !! turns current_user into a boolean
+  # end
 end
