@@ -1,28 +1,19 @@
-# README
+# ANY BLOG
 
 Check it out on heroku!
 
 https://any-bloggers.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Otherwise try it out on your machine: 
+ 
+* Clone repo
 
-Things you may want to cover:
+* Open and run bundle
 
-* Ruby version
+* then npm install
 
-* System dependencies
+* finally, db:create
 
-* Configuration
+* run rails s to start server 
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* view on localhost:3000
